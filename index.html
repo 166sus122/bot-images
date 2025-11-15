@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <title>Bot Images Storage</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 40px auto;
+            max-width: 800px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .success {
+            font-size: 48px;
+            margin-bottom: 30px;
+        }
+
+        .title {
+            font-size: 36px;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        .info {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px 0;
+            text-align: right;
+        }
+
+        .info a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 6px;
+            transition: all 0.3s ease;
+        }
+
+        .info a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .test-image {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .features {
+            text-align: right;
+            margin: 30px 0;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .features li::before {
+            content: "✅ ";
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            text-align: center;
+            margin: 10px;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="success">🎉</div>
+        <div class="title">Bot Images Storage Ready!</div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">אחסון בלתי מוגבל</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">חינם</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number">⚡</div>
+                <div class="stat-label">CDN מהיר</div>
+            </div>
+        </div>
+
+        <div class="info">
+            <h3>📸 Repository:</h3>
+            <a href="https://github.com/166sus122/bot-images" target="_blank">
+                https://github.com/166sus122/bot-images
+            </a>
+        </div>
+
+        <div class="info">
+            <h3>🌐 GitHub Pages:</h3>
+            <a href="https://166sus122.github.io/bot-images/" target="_blank">
+                https://166sus122.github.io/bot-images/
+            </a>
+        </div>
+
+        <div class="info">
+            <h3>🔗 תמונת בדיקה:</h3>
+            <img src="https://166sus122.github.io/bot-images/test_image.png" alt="Test Image" class="test-image" />
+            <a href="https://166sus122.github.io/bot-images/test_image.png" target="_blank">
+                צפה בתמונה בגודל חדש
+            </a>
+        </div>
+
+        <div class="info">
+            <h3>📝 תכונות:</h3>
+            <div class="features">
+                <ul>
+                    <li>אחסון בלתי מוגבל</li>
+                    <li>CDN חינם מהיר</li>
+                    <li>HTTPS אוטומטי</li>
+                    <li>עובד בטלגרף</li>
+                    <li>עובד בכל מקום</li>
+                    <li>Git version control</li>
+                    <li>100% חינם</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="info">
+            <h3>🚀 מוכן לשימוש!</h3>
+            <p>המערכת שלך מוכנה להעלות תמונות אוטומטית ל-GitHub ולהציג אותן ישירות בטלגרף.</p>
+        </div>
+    </div>
+</body>
+</html>
